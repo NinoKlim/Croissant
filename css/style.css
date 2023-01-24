@@ -1,3 +1,7 @@
+:root {
+  --primary-font-family: "Source Serif Pro", serif;
+  --primary-font-style: italic;
+}
 .mask {
   /* fallback for old browsers */
   background: #e9defa;
@@ -22,9 +26,10 @@
   width: 300px;
 }
 
-.main-page-text {
+.main-page-text,
+.photo-page-text,
+.contact-text {
   padding: 50px 0;
-
-  font-family: "Source Serif Pro", serif;
-  font-style: italic;
+  font-family: var(--primary-font-family);
+  font-style: var(--primary-font-style);
 }
