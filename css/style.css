@@ -29,7 +29,12 @@
 .main-page-text,
 .photo-page-text,
 .contact-text {
-  padding: 50px 0;
+  padding: 20px 0 50px;
   font-family: var(--primary-font-family);
-  font-style: var(--primary-font-style);
+}
+.mainTitle {
+  padding-top: 40px;
+  font-size: 25px;
+  font-family: var(--primary-font-family);
+  text-align: center;
 }
