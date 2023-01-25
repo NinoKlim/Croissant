@@ -31,6 +31,7 @@
 .contact-text {
   padding: 20px 0 50px;
   font-family: var(--primary-font-family);
+  font-size: 16px;
 }
 .mainTitle {
   padding-top: 40px;
